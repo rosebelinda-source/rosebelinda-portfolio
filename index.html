@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rose Belinda Makabenta | Virtual Assistant</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+/* =====================
+GLOBAL STYLE
+===================== */
+
+body{
+    margin:0;
+    font-family:'Montserrat', sans-serif;
+    background:#F9F7F2;
+    color:#2C2C2C;
+    scroll-behavior:smooth;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h1,h2,h3{
+    font-family:'Cinzel', serif;
+    letter-spacing:1px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+/* =====================
+HERO SECTION
+===================== */
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    max-width:700px;
+    line-height:1.6;
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    background:#2C2C2C;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    opacity:.8;
+}
+
+/* =====================
+SERVICES
+===================== */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* =====================
+TIMELINE
+===================== */
+
+.timeline{
+    border-left:2px solid #2C2C2C;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:40px;
+}
+
+/* =====================
+TOOLS GRID
+===================== */
+
+.tools{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+    text-align:center;
+}
+
+.tool{
+    opacity:0;
+    transform:translateY(20px);
+    transition:.6s;
+}
+
+.tool.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* =====================
+EDUCATION
+===================== */
+
+.edu{
+    background:white;
+    border-radius:12px;
+    padding:40px;
+}
+
+/* =====================
+FLOATING CTA
+===================== */
+
+.sticky-footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:#2C2C2C;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 10%;
+    z-index:999;
+}
+
+.sticky-footer a{
+    background:white;
+    color:#2C2C2C;
+    padding:10px 22px;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:500;
+}
+
+/* =====================
+RESPONSIVE
+===================== */
+
+@media(max-width:768px){
+.hero h1{
+font-size:32px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero container">
+<h1>Precision Meets Professionalism.</h1>
+
+<p>
+Hi, I’m <strong>Rose Belinda Makabenta</strong>.  
+A highly organized Virtual Assistant and Associate Software Engineer dedicated to increasing your business productivity through elite administrative and technical support.
+</p>
+
+<a class="btn" href="mailto:rosebed2304@gmail.com?subject=Inquiry for Services">
+Avail My Services
+</a>
+</section>
+
+<!-- ================= EXPERTISE ================= -->
+
+<section>
+<h2>Expertise</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Technical Support</h3>
+<p>3+ years in Application Support and B2B Tier 1 engineering delivering scalable and reliable solutions.</p>
+</div>
+
+<div class="card">
+<h3>Admin & Lead Generation</h3>
+<p>Specialized in recruitment cycles, cold emailing, and Boolean search lead generation using Apollo.io.</p>
+</div>
+
+<div class="card">
+<h3>Financial Analysis</h3>
+<p>Expert in financial modeling, QuickBooks invoicing, and professional data visualization reporting.</p>
+</div>
+
+</div>
+</section>
+
+<!-- ================= JOURNEY ================= -->
+
+<section>
+<h2>Professional Journey</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Accenture Inc. | Associate Software Engineer</h3>
+<p>2022 – Present</p>
+<p>Managing B2B escalations, technical requirements, and scalable architecture solutions.</p>
+</div>
+
+<div class="timeline-item">
+<h3>MCO Homecare Services | VA Admin Assistant</h3>
+<p>2025 – Present</p>
+<p>Handling full-cycle recruitment and personalized lead outreach operations.</p>
+</div>
+
+<div class="timeline-item">
+<h3>Gasmask Company | Lead Generation Specialist</h3>
+<p>2024 – 2025</p>
+<p>Utilizing Apollo.io and Vcita CRM to drive qualified sales activities.</p>
+</div>
+
+</div>
+</section>
+
+<!-- ================= TOOLS ================= -->
+
+<section>
+<h2>Software & Tools</h2>
+
+<div class="tools">
+
+<div class="tool">Google Workspace</div>
+<div class="tool">Microsoft Office</div>
+<div class="tool">Notion</div>
+<div class="tool">Trello</div>
+<div class="tool">Slack</div>
+
+<div class="tool">Salesforce</div>
+<div class="tool">Zendesk</div>
+<div class="tool">Vcita</div>
+<div class="tool">Apollo.io</div>
+
+<div class="tool">Canva</div>
+<div class="tool">Adobe Photoshop</div>
+<div class="tool">QuickBooks</div>
+
+</div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section>
+<h2>Education & Certifications</h2>
+
+<div class="edu">
+<p><strong>Bachelor of Science in Information Technology</strong><br>
+Colegio de Sta Teresa de Avila</p>
+
+<p><strong>Certifications:</strong><br>
+Google Ads Measurement • WordPress Design • TESDA NC II</p>
+</div>
+
+</section>
+
+<!-- ================= FLOATING CTA ================= -->
+
+<div class="sticky-footer">
+<span>Ready to streamline your operations?</span>
+
+<a href="mailto:rosebed2304@gmail.com?subject=Work With Me">
+WORK WITH ME
+</a>
+</div>
+
+<!-- ================= FADE ANIMATION ================= -->
+
+<script>
+const tools = document.querySelectorAll('.tool');
+
+window.addEventListener('scroll', () => {
+tools.forEach(tool=>{
+const position = tool.getBoundingClientRect().top;
+if(position < window.innerHeight - 50){
+tool.classList.add('show');
+}
+});
+});
+</script>
+
+</body>
+</html>
